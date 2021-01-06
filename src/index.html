@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>EHSC</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<div id="errorModal" class="modal">
+			<div class="modal-body">
+				<span id="errorClose">&times;</span>
+				<p id="errorMsg">No error displayed.</p>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row center-xs">
+				<div class="col-xs">
+					<h1>Enhanced Hacknet Syntax Compiler</h1>
+				</div>
+			</div>
+			<div class="row center-xs">
+				<div class="col-xs">
+					<p>
+						This tool allows you to convert <abbr title="Enhanced Hacknet Syntax">EHS</abbr> into regular Hacknet syntax.<br>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row center-xs middle-xs">
+				<div class="col-xs-6">
+					Upload a file and then hit the <b>Convert</b> button to convert your EHS-structured xml file into a standard Hacknet-structured one.
+				</div>
+				<div class="col-xs-6">
+					<input type="file" name="Upload EHS" id="ehsUpload" accept="text/xml">
+					<button id="ehsConvert">Convert</button>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row center-xs">
+				<div class="col-xs">
+					<h2>EHS Resources</h2>
+				</div>
+			</div>
+			<div class="row center-xs">
+				<table>
+					<tr>
+						<th>Resource</th>
+						<th>Link</th>
+					</tr>
+					<tr>
+						<td>EHS Syntax Guide</td>
+						<td><a href="/">Link coming soon...</a></td>
+					</tr>
+					<tr>
+						<td>EHS Specification 1.0</td>
+						<td><a href="/">Link coming soon...</a></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<footer>
+			<div class="row center-xs">
+				<div class="col-xs">
+					Developed by <a href="https://www.github.com/MaowImpl">Maow</a>, January 2021.
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
