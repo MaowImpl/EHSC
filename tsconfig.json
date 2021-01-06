@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"target": "ES5",
+		"module": "CommonJS",
+		"moduleResolution": "node",
+		"jsx": "react",
+		"lib": [
+			"DOM",
+			"ES2020"
+		],
+		"outDir": "dist",
+		"noImplicitAny": true,
+		"strict": true,
+		"alwaysStrict": true,
+		"allowJs": true
+	}
+}
